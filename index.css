@@ -5,11 +5,13 @@
   --white: white;
   --fontPrincipale: "DM Sans";
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 #container {
   max-width: 1200px;
   width: 100%;
@@ -208,12 +210,15 @@ text-align: center; */
     font-size: 20px;
     text-align: center;
   }
+
   #container #block-maschino h1 {
     font-size: 30px;
   }
+
   #container #CE {
     font-size: 5px;
   }
+
   #container #list li {
     display: none;
   }
@@ -221,12 +226,15 @@ text-align: center; */
   #container #block-img .article {
     width: 40%;
   }
+
   #container #block-img h1 {
     text-align: center;
   }
+
   #container #block-img h3 {
     text-align: center;
   }
+
   #container #list #burger i {
     display: block;
   }
@@ -237,10 +245,12 @@ text-align: center; */
     text-align: center;
     font-size: small;
   }
+
   #container #block-img h3 {
     text-align: center;
     font-size: small;
   }
+
   #container #num-page li {
     /* text-align: center; */
     margin: 0 auto;
@@ -255,16 +265,19 @@ text-align: center; */
     text-align: center;
     font-size: 10px;
   }
+
   #container #block-img h3 {
     text-align: center;
     font-size: 10px;
   }
+
   #container #num-page li {
     /* text-align: center; */
     margin: 0 auto;
     justify-content: space-around;
     width: 20%;
   }
+
   #container #num-page .suite {
     margin: 0 auto;
     justify-content: space-around;
@@ -278,7 +291,11 @@ text-align: center; */
   }
 }
 
-.nivo-caption {
+
+
+/* nivo-slider css */
+
+/* .nivo-caption {
   background-color: transparent;
   bottom: 45%;
   left: 25%;
@@ -292,41 +309,33 @@ text-align: center; */
 .nivo-caption h2{
   background-color: rgba(0, 0, 255, 0.363);
   font-size: 20px;
+  text-align: center;
 }
 
-.nivo-caption #htmlcaption h3{
+.nivo-caption h3{
   background-color: rgba(0, 0, 255, 0.363);
-  font-size: 200px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .nivo-caption h4{
   background-color: rgba(0, 0, 255, 0.363);
   font-size: 20px;
+  text-align: center;
+  
 }
 
 #container #slider {
   border-radius: 3%;
   margin: 0 auto;
   width: 95%;
-}
+} */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* .nivo-caption{
+.nivo-caption{
   background-color: rgba(128, 128, 128, 0.58);
   font-size:3rem;
   width: 60%;
@@ -344,6 +353,7 @@ text-align: center; */
   font-size:2rem;
   margin-bottom:8%;
   padding-left:6%;
+  text-align: center;
   }
   .nivo-caption .iconeLien{
   width:85%;
@@ -359,4 +369,4 @@ text-align: center; */
   padding:5px 24px;
   border-radius: 20px;
   margin-left:4%;
-  } */
+  }
